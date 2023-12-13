@@ -6,7 +6,7 @@
     </div>
     <nav display-flex absolute bottom-5 left-0 right-0 text-center text-gray>
       <button icon-btn @click="toggleDark()">
-        <div i-carbon-sun dark:i-carbon-moon />
+        <div i-carbon-moon dark:i-carbon-sun />
       </button>
       <a
         i-carbon-logo-github ml-2 icon-btn

@@ -20,8 +20,14 @@ devDependencies:
     specifier: ^2.4.0
     version: 2.4.0(@unocss/eslint-plugin@0.58.0)(@vue/compiler-sfc@3.3.10)(eslint-plugin-format@0.1.0)(eslint@8.55.0)(typescript@5.3.3)(vitest@1.0.2)
   '@iconify-json/carbon':
-    specifier: ^1.1.24
-    version: 1.1.24
+    specifier: ^1.1.26
+    version: 1.1.26
+  '@iconify-json/file-icons':
+    specifier: ^1.1.8
+    version: 1.1.8
+  '@iconify-json/mdi':
+    specifier: ^1.1.62
+    version: 1.1.62
   '@types/node':
     specifier: ^20.10.4
     version: 20.10.4
@@ -803,8 +809,20 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@iconify-json/carbon@1.1.24:
-    resolution: {integrity: sha512-Sx4vj3HfQj3yP6a4QzWc1BymDO5uTOGTHeb5it/xaMa196C6+RegNUv1F+Y1h8AJ2Sv93GMI+PyMH0HyqTHEmg==}
+  /@iconify-json/carbon@1.1.26:
+    resolution: {integrity: sha512-0y6JstqPCsjEiUuyTTdHE7Wd9gGlxzH2dEfvKUJe5E741qRgLlIipVdBoCkOtbyAT92WEcU8BNfDaC585OCC8w==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/file-icons@1.1.8:
+    resolution: {integrity: sha512-gzkxwnzEN0FVJZQIM/X7aqlN98z/XQ8ymb/BC1ebr3lJHvmQ5n8gMhWeytnJHHwRERg/zokTXSQDt62ANwcs/w==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/mdi@1.1.62:
+    resolution: {integrity: sha512-VEfnaIwO++vZ5xUYdbPuB303E1Db29kRfkd+n9dxC0zQQ6fTy4TEI2Q79TYZtEPwiIOWOy8pudTbOv4GLUaziA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
